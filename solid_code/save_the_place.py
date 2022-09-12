@@ -17,5 +17,5 @@ class SavePlace:
         self.notifier = notifier
 
         self.find_enemy()
-        hero.attack()
+        self.hero.attack()
         self.notify()
